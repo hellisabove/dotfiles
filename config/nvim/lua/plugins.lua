@@ -60,4 +60,7 @@ return require('packer').startup(function(use)
 
     -- git integration
     use 'lewis6991/gitsigns.nvim'
+        
+    -- syntax highlighting for vlang --
+    use 'cheap-glitch/vim-v'
 end)
